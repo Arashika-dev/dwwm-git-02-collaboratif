@@ -1,0 +1,34 @@
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    background-color: beige;
+}
+
+ header img{
+    border-radius: 125%;
+    margin: 1vh;
+}
+
+nav{
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 250%;
+    justify-content: space-around;
+    padding-left: 1vw;
+    
+}
+
+nav a{
+    text-decoration: none;
+    color: brown;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+   
+}
+
+a:hover {
+    color:red;
+    text-decoration:none;
+    }
