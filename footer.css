@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    padding-right: 10vw;
+    border: solid thin;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: beige;
+    clear: both;
+}
+
+footer img {
+    margin: 1vh;
+    border-radius: 125%;
+}
+
+footer ul {
+    margin-left: 5vw;
+    list-style-type: none;
+
+}
+
+footer li {
+    margin-bottom: 1vh;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+footer a:hover {
+    color: red;
+}

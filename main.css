@@ -1,0 +1,16 @@
+#contenu {
+    display: flex;
+    flex-direction: row;
+}
+
+main {
+    width: 85vw;
+    padding: 1vw;
+}
+
+aside {
+    border: solid thin;
+    padding: 1vw;
+    flex-wrap: wrap;
+    width: 20vw;
+}
